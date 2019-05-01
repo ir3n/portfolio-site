@@ -1,0 +1,19 @@
+header {
+  @include center-vert;
+  @include flex-between;
+}
+
+.logo {
+  flex: 1;
+
+  @include calligraphy;
+
+  a {
+    font-size: 3rem;
+    @include transition;
+
+    &:hover {
+      color: $highlight;
+    }
+  }
+}

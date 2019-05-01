@@ -1,0 +1,21 @@
+@mixin calligraphy {
+  font-family: "Italianno", cursive;
+}
+
+@mixin flex-between {
+  display: flex;
+  justify-content: space-between;
+}
+
+@mixin grid-2cols {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+}
+
+@mixin center-vert {
+  align-items: center;
+}
+
+@mixin transition {
+  transition: all 0.3s;
+}

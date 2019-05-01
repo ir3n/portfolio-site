@@ -1,0 +1,183 @@
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  margin: 0; }
+
+body {
+  margin: 0;
+  color: #f3f2ce;
+  background: -webkit-gradient(linear, left top, right top, from(#29ffc6), color-stop(#20e3b2), to(#0cebeb));
+  background: -webkit-linear-gradient(left, #29ffc6, #20e3b2, #0cebeb);
+  background: -moz-linear-gradient(left, #29ffc6, #20e3b2, #0cebeb);
+  background: -o-linear-gradient(left, #29ffc6, #20e3b2, #0cebeb);
+  background: linear-gradient(to right, #29ffc6, #20e3b2, #0cebeb);
+  height: 100vh;
+  font-family: "Open Sans", sans-serif; }
+
+a {
+  text-decoration: none;
+  color: #f3f2ce;
+  font-size: 1.2rem; }
+
+h1,
+h2,
+ul {
+  font-weight: 300; }
+
+h1 {
+  font-size: 2.5rem; }
+
+h2 {
+  font-size: 2rem; }
+
+ul {
+  list-style-type: none;
+  font-size: 1.7rem;
+  padding: 0; }
+
+.main-container {
+  padding: 1rem 10%;
+  height: 100%;
+  display: grid;
+  grid-template-rows: 4rem auto 4rem; }
+
+nav {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+  -moz-box-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -moz-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  font-size: 1.3rem;
+  font-weight: 300; }
+  nav a::after {
+    content: "";
+    display: block;
+    width: 0;
+    height: 2px;
+    background: #e24303;
+    margin-top: 0.6rem;
+    -webkit-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s; }
+  nav a:hover::after {
+    width: 100%; }
+
+.main-btn {
+  padding: 0.5rem 1.5rem;
+  background-color: #e24303;
+  -webkit-border-radius: 20px;
+  -moz-border-radius: 20px;
+  border-radius: 20px;
+  font-weight: 300;
+  -webkit-transition: all 0.3s;
+  -o-transition: all 0.3s;
+  -moz-transition: all 0.3s;
+  transition: all 0.3s; }
+  .main-btn:hover {
+    background-color: #b03302; }
+
+.hidden {
+  opacity: 0; }
+
+.visible {
+  opacity: 0; }
+
+header {
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -moz-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -moz-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -moz-box-pack: justify;
+  -ms-flex-pack: justify;
+  justify-content: space-between; }
+
+.logo {
+  -webkit-box-flex: 1;
+  -webkit-flex: 1;
+  -moz-box-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  font-family: "Italianno", cursive; }
+  .logo a {
+    font-size: 3rem;
+    -webkit-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s; }
+    .logo a:hover {
+      color: #e24303; }
+
+#home {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr); }
+
+.description {
+  margin-top: -1.7rem;
+  margin-bottom: 4rem;
+  -webkit-transition: all 1s;
+  -o-transition: all 1s;
+  -moz-transition: all 1s;
+  transition: all 1s; }
+
+.intro {
+  -webkit-align-self: center;
+  -ms-flex-item-align: center;
+  align-self: center; }
+
+.big-calligraphic {
+  font-size: 7rem;
+  font-family: "Italianno", cursive; }
+
+.letter {
+  display: inline-block;
+  line-height: 1em; }
+
+.footer {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -moz-box-align: center;
+  -ms-flex-align: center;
+  align-items: center; }
+  .footer--icons {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -moz-box-pack: justify;
+    -ms-flex-pack: justify;
+    justify-content: space-between; }
+  .footer a {
+    font-size: 2rem;
+    -webkit-transition: all 0.3s;
+    -o-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s; }
+  .footer a:hover {
+    color: #e24303; }
+  .footer--mail {
+    justify-self: center; }

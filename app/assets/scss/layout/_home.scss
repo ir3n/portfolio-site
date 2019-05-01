@@ -1,0 +1,21 @@
+#home {
+  @include grid-2cols;
+}
+
+.description {
+  margin-top: -1.7rem;
+  margin-bottom: 4rem;
+  transition: all 1s;
+}
+.intro {
+  align-self: center;
+}
+.big-calligraphic {
+  font-size: 7rem;
+  @include calligraphy;
+}
+
+.letter {
+  display: inline-block;
+  line-height: 1em;
+}

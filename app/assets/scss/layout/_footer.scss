@@ -1,0 +1,20 @@
+.footer {
+  @include grid-2cols;
+  @include center-vert;
+
+  &--icons {
+    @include flex-between;
+  }
+
+  a {
+    font-size: 2rem;
+    @include transition;
+  }
+  a:hover {
+    color: $highlight;
+  }
+
+  &--mail {
+    justify-self: center;
+  }
+}
