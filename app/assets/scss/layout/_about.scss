@@ -1,0 +1,19 @@
+#about {
+  margin-top: 200px;
+  padding: 2rem 4rem 2rem 0;
+  font-weight: 300;
+  font-size: 1.1rem;
+  color: $dark;
+  position: relative;
+
+  p {
+    margin-bottom: 1rem;
+
+    &:last-child {
+      margin-top: 3rem;
+    }
+  }
+}
+.absolute {
+  position: absolute;
+}
